@@ -29,6 +29,17 @@ generatedTemplates.forEach(template => {
   );
 });
 
+fs.writeFileSync(
+  `${componentDirectory}/styles.ts`,
+  `import styled from 'styled-components';
+    
+import theme from '../styles/theme';
+
+export const Wrapper = styled.div\`
+padding: 5rem;
+\`;`
+);
+
 console.log(
   'Successfully created component under: ' + componentDirectory.green
 );
