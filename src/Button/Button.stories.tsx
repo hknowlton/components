@@ -1,11 +1,11 @@
 // Generated with util/create-component.js
 import React from "react";
-import Button from "./Button";
+import {Button} from "./Button";
 
 export default {
     title: "Button"
 };
 
-export const WithBar = () => <Button foo="bar" />;
+export const WithBar = () => <Button text="bar" />;
 
-export const WithBaz = () => <Button foo="baz" />;
+export const WithBaz = () => <Button text="baz" variant="filled-green-v2"/>;

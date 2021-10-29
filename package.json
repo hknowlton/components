@@ -1,6 +1,6 @@
 {
-  "name": "react-component-library",
-  "version": "1.0.0",
+  "name": "hk-react-lib-test",
+  "version": "1.0.3",
   "main": "build/index.js",
   "files": [
     "build"

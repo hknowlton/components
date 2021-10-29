@@ -3,7 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
 
 export default {
-  input: ['src/index.ts', 'src/TestComponent/index.ts'],
+  input: ['src/index.ts', 'src/TestComponent/index.ts', 'src/Button/index.ts'],
   output: [
     {
       dir: 'build',
