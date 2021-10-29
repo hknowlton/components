@@ -3,7 +3,7 @@ import React, { HTMLProps } from 'react';
 import {
   Button as ButtonStyles,
   classes,
-//   StyledArrow,
+  //   StyledArrow,
   CssProps
 } from './styles';
 

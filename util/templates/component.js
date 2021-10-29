@@ -1,4 +1,4 @@
-module.exports = (componentName) => ({
+module.exports = componentName => ({
   content: `// Generated with util/create-component.js
 import React from "react";
 
@@ -11,5 +11,5 @@ const ${componentName}: React.FC<${componentName}Props> = ({ foo }) => (
 export default ${componentName};
 
 `,
-  extension: `.tsx`,
+  extension: `.tsx`
 });

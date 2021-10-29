@@ -2,7 +2,7 @@ import { HTMLProps } from 'react';
 import styled from 'styled-components';
 // import DownArrowLong from '@carvana/icons/DownArrowLong';
 
-import theme from '../styles/theme';
+import theme from 'src/styles/theme';
 
 const { carvana, carvanaV2 } = theme;
 // this really should use the csstype library, but there's things like fontColor, which is not a valid css property

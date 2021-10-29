@@ -3,18 +3,18 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
 
 export default {
-  input: ['src/index.ts', 'src/TestComponent/index.ts', 'src/Button/index.ts'],
+  input: ['src/index.ts', 'src/Button/index.ts'],
   output: [
     {
       dir: 'build',
       format: 'cjs',
-      sourcemap: true,
-    },
+      sourcemap: true
+    }
   ],
   preserveModules: true, // Important if we want to code split
   plugins: [
     peerDepsExternal(),
     commonjs(),
-    typescript({ useTsconfigDeclarationDir: true }),
-  ],
+    typescript({ useTsconfigDeclarationDir: true })
+  ]
 };
